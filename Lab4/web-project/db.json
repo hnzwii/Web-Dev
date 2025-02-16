@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Product 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/hdb/h2f/63803859566622.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/deerma-dx700-belyi-3701383/?c=750000000"
+    },
+    {
+      "id": 2,
+      "productName": "Product 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h47/ha1/64094073815070.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/generic-sf-400-102531445/?c=750000000"
+    },
+    {
+      "id": 3,
+      "productName": "Product 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h08/hde/80282292781086.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=750000000"
+    },
+    {
+      "id": 4,
+      "productName": "Product 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/hfe/ha1/67141660606494.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/slaouwo-hb-2075-chernyi-108151055/?c=750000000"
+    },
+    {
+      "id": 5,
+      "productName": "Product 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/hd4/h94/63804412854302.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=750000000"
+    },
+    {
+      "id": 6,
+      "productName": "Product 6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h44/h47/83170442674206.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/elektricheskaja-pompa-dlja-vody-30022386-650227-chernyi-112860371/?c=750000000"
+    },
+    {
+      "id": 7,
+      "productName": "Product 7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h93/h67/64313485983774.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/vafel-nitsa-dash-f-607-krasnyi-102531842/?c=750000000"
+    },
+    {
+      "id": 8,
+      "productName": "Product 8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h95/h84/66556923904030.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-zy-303-chernyi-serebristyi-107912987/?c=750000000"
+    },
+    {
+      "id": 9,
+      "productName": "Product 9",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h90/hd8/85539374170142.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/ava-mmwo-2070b-chernyi-117793364/?c=750000000"
+    },
+    {
+      "id": 10,
+      "productName": "Product 10",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h69/hfe/84636579004446.png?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/uvlazhnitel-vozduha-maxmoll-h2o-a5-belyi-109792185/?c=750000000"
+    }
+  ]
+}
