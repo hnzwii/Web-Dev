@@ -1,3 +1,29 @@
 <div class="wrapper">
-  <app-products-group></app-products-group>
+  <header>
+    <h1>SHOP</h1>
+  </header>
+  <div class="categorySelector">
+    <h2>Categories</h2>
+    <!-- <input
+      type="text"
+      list="categoryList"
+      #categoryInput
+      (change)="selectCategory(categoryInput.value)"
+      [value]="selectedCategoryName"
+      (focus)="clearInput()"
+      (input)="updateCategoryName(categoryInput.value)"
+    />
+    <datalist id="categoryList">
+      <option *ngFor="let category of categories" [value]="category.name">
+        {{ category.name }}
+      </option>
+    </datalist> -->
+    <select (change)="selectCategory($event)">
+      <option value="" disabled selected>Choose category</option>
+      <option *ngFor="let category of categories" [value]="category.id">
+        {{ category.name }}
+      </option>
+    </select>
+  </div>
+  <app-products-group [categoryID]="selectedCategory"></app-products-group>
 </div>

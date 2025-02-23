@@ -1,94 +1,297 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "productName": "Product 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/hdb/h2f/63803859566622.jpg?format=preview-large",
-      "rating": 5,
+      "rating": 4,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/deerma-dx700-belyi-3701383/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/deerma-dx700-belyi-3701383/?c=750000000",
+      "likes": 0,
+      "categoryID": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "productName": "Product 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h47/ha1/64094073815070.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/generic-sf-400-102531445/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/generic-sf-400-102531445/?c=750000000",
+      "likes": 4,
+      "categoryID": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "productName": "Product 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h08/hde/80282292781086.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=750000000",
+      "likes": 1,
+      "categoryID": 1
     },
     {
-      "id": 4,
+      "id": "4",
       "productName": "Product 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/hfe/ha1/67141660606494.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/slaouwo-hb-2075-chernyi-108151055/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/slaouwo-hb-2075-chernyi-108151055/?c=750000000",
+      "likes": 0,
+      "categoryID": 1
     },
     {
-      "id": 5,
+      "id": "5",
       "productName": "Product 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/hd4/h94/63804412854302.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=750000000",
+      "likes": 1,
+      "categoryID": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "productName": "Product 6",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h44/h47/83170442674206.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/elektricheskaja-pompa-dlja-vody-30022386-650227-chernyi-112860371/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/elektricheskaja-pompa-dlja-vody-30022386-650227-chernyi-112860371/?c=750000000",
+      "likes": 0,
+      "categoryID": 1
     },
     {
-      "id": 7,
+      "id": "7",
       "productName": "Product 7",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h93/h67/64313485983774.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/vafel-nitsa-dash-f-607-krasnyi-102531842/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/vafel-nitsa-dash-f-607-krasnyi-102531842/?c=750000000",
+      "likes": 0,
+      "categoryID": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "productName": "Product 8",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h95/h84/66556923904030.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-zy-303-chernyi-serebristyi-107912987/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/elektrochainik-zy-303-chernyi-serebristyi-107912987/?c=750000000",
+      "likes": 1,
+      "categoryID": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "productName": "Product 9",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h90/hd8/85539374170142.jpg?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/ava-mmwo-2070b-chernyi-117793364/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/ava-mmwo-2070b-chernyi-117793364/?c=750000000",
+      "likes": 2,
+      "categoryID": 1
     },
     {
-      "id": 10,
+      "id": "10",
       "productName": "Product 10",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
       "img": "https://resources.cdn-kaspi.kz/img/m/p/h69/hfe/84636579004446.png?format=preview-large",
       "rating": 5,
       "socialsLink": "https://web.telegram.org/a/",
-      "kaspiLink": "https://kaspi.kz/shop/p/uvlazhnitel-vozduha-maxmoll-h2o-a5-belyi-109792185/?c=750000000"
+      "kaspiLink": "https://kaspi.kz/shop/p/uvlazhnitel-vozduha-maxmoll-h2o-a5-belyi-109792185/?c=750000000",
+      "likes": 0,
+      "categoryID": 1
+    },
+    {
+      "id": "11",
+      "productName": "Product 11",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/pa3/pdb/18363782.jpg?format=preview-large",
+      "rating": 3,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/groinneya-tj01-puchkovye-c-0-03-mm-chernyi-10-mm-16-mm-122310719/?c=750000000",
+      "likes": 0,
+      "categoryID": 4
+    },
+    {
+      "id": "12",
+      "productName": "Product 12",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h73/hf8/84637755080734.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/bella-vatnye-palochki-cotton-160-sht-100224758/?c=750000000",
+      "likes": 0,
+      "categoryID": 4
+    },
+    {
+      "id": "13",
+      "productName": "Product 13",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h9e/h91/86777093226526.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/splat-zubnaja-pasta-ul-trakompleks-100-ml-100194794/?c=750000000",
+      "likes": 0,
+      "categoryID": 4
+    },
+    {
+      "id": "14",
+      "productName": "Product 14",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/hf7/h67/64437574336542.jpg?format=preview-large",
+      "rating": 4,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/dmnd-sponzh-skoshennyi-sponzh-kaplja-poliuretan-2-sht-104557208/?c=750000000",
+      "likes": 0,
+      "categoryID": 4
+    },
+    {
+      "id": "15",
+      "productName": "Product 15",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h00/h88/85954193981470.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/kiss-beauty-sky-line-podvodka-flomaster-chernyi-black-119141322/?c=750000000",
+      "likes": 0,
+      "categoryID": 4
+    },
+    {
+      "id": "16",
+      "productName": "Product 16",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/pdd/p2b/3187771.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/stul-c06-80x46x40-sm-belyi-100189414/?c=750000000",
+      "likes": 0,
+      "categoryID": 3
+    },
+    {
+      "id": "17",
+      "productName": "Product 17",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/p70/pdb/6045250.jpeg?format=preview-large",
+      "rating": 2,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/divan-prjamoi-nasip-raiana-obivka-tkan-85h230h70-sm-svetlo-korichnevyi-115023255/?c=750000000",
+      "likes": 0,
+      "categoryID": 3
+    },
+    {
+      "id": "18",
+      "productName": "Product 18",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/had/hfe/85358048673822.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/stellazh-napol-nyi-abuer-66x31x132-sm-belyi-104771353/?c=750000000",
+      "likes": 0,
+      "categoryID": 3
+    },
+    {
+      "id": "19",
+      "productName": "Product 19",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h5b/h7c/85119645319198.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/stol-komp-juternyi-loft-110h70x75-sm-belyi-108418941/?c=750000000",
+      "likes": 0,
+      "categoryID": 3
+    },
+    {
+      "id": "20",
+      "productName": "Product 20",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/hbe/hff/85704242266142.jpg?format=preview-large",
+      "rating": 4,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/veshalka-napol-naja-singleton-tw610-metall-150x154-sm-chernyi-106301738/?c=750000000",
+      "likes": 0,
+      "categoryID": 3
+    },
+    {
+      "id": "21",
+      "productName": "Product 21",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h77/h45/87311746760734.png?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/airstar-g2000-10-djuim-16-gb-512-gb-chernyi-124333904/?c=750000000",
+      "likes": 0,
+      "categoryID": 2
+    },
+    {
+      "id": "22",
+      "productName": "Product 22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/pdc/p8a/24789850.jpg?format=preview-large",
+      "rating": 3,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/aula-f75-belyi-117731409/?c=750000000",
+      "likes": 0,
+      "categoryID": 2
+    },
+    {
+      "id": "23",
+      "productName": "Product 23",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/he7/h18/63909776424990.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/x-game-xm-775ogb-chernyi-100374644/?c=750000000",
+      "likes": 0,
+      "categoryID": 2
+    },
+    {
+      "id": "24",
+      "productName": "Product 24",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/h28/hfc/83298067742750.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/thunderobot-df27c240l-chernyi-112895678/?c=750000000",
+      "likes": 0,
+      "categoryID": 2
+    },
+    {
+      "id": "25",
+      "productName": "Product 25",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae animi consequatur praesentium! Esse, rerum dolores.",
+      "img": "https://resources.cdn-kaspi.kz/img/m/p/haa/h3f/79798648406046.jpg?format=preview-large",
+      "rating": 5,
+      "socialsLink": "https://web.telegram.org/a/",
+      "kaspiLink": "https://kaspi.kz/shop/p/chehol-wiwu-macbook-air-13-6-m2-2022-prozrachnyi-109753841/?c=750000000",
+      "likes": 0,
+      "categoryID": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "home equipment"
+    },
+    {
+      "id": 2,
+      "name": "computers"
+    },
+    {
+      "id": 3,
+      "name": "furniture"
+    },
+    {
+      "id": 4,
+      "name": "beauty care"
     }
   ]
 }
