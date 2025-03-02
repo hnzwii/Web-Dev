@@ -1,0 +1,39 @@
+<div class="album">
+  <div class="container">
+    <form [formGroup]="albumForm" (ngSubmit)="onSubmit()">
+      <div class="formGroup">
+        <label for="title">Album Title</label>
+        <input
+          id="title"
+          formControlName="title"
+          type="text"
+          placeholder="Enter album title"
+        />
+        <div *ngIf="title?.invalid && (title?.dirty || title?.touched)">
+          <span *ngIf="title?.errors?.['required']" class="errorMessage"
+            >Title is required.</span
+          >
+          <span *ngIf="title?.errors?.['minlength']" class="errorMessage"
+            >Title must be at least 3 characters long.</span
+          >
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="albumForm.invalid" class="submitButton">
+        Save
+      </button>
+    </form>
+
+    <ul>
+      <li *ngFor="let album of albums">
+        <span>{{ album.title }}</span>
+        <button (click)="removeById(+album.id)" class="deleteButton">
+          Delete
+        </button>
+        <a [routerLink]="['/album', album.id]" class="viewDetails"
+          >View Details</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="navigation">
+  <div class="container">
+    <div class="logo">
+      <a routerLink="/" class="homeLink"> Web-Project Gallery</a>
+    </div>
+    <ul>
+      <li>
+        <a
+          routerLink="/home"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/about"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/album"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Album</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

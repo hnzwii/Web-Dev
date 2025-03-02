@@ -1,0 +1,41 @@
+<div class="albumDetail">
+  <div class="container">
+    <h2>Album Details</h2>
+
+    <div *ngIf="album">
+      <div class="albumInfo">
+        <p><strong>Album Title:</strong> {{ album.title }}</p>
+      </div>
+
+      <form [formGroup]="albumForm" (ngSubmit)="onSubmit()">
+        <div class="formGroup">
+          <label for="title">Edit Album Title</label>
+          <input
+            id="title"
+            formControlName="title"
+            type="text"
+            placeholder="Enter new album title"
+          />
+        </div>
+
+        <button
+          type="submit"
+          [disabled]="albumForm.invalid"
+          class="submitButton"
+        >
+          Save
+        </button>
+      </form>
+
+      <div class="albumActions">
+        <button [routerLink]="['/album']" class="returnButton">Return</button>
+        <button
+          [routerLink]="['/album', +album.id, 'photos']"
+          class="viewPhotosButton"
+        >
+          View Photos
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
