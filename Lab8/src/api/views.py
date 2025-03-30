@@ -1,7 +1,8 @@
-from django.http import JsonResponse, request
+from django.http import JsonResponse
 from .models import Product, Category
 
-def product_list(request: request) -> JsonResponse:
+
+def product_list(request):
     try:
         products = list(Product.objects.values())
         return JsonResponse(data=products, status=200, safe=False)
@@ -9,7 +10,7 @@ def product_list(request: request) -> JsonResponse:
         return JsonResponse({"error": str(e)}, status=500)
 
 
-def categories_list(request: request) -> JsonResponse:
+def categories_list(request):
     try:
         categories = list(Category.objects.values())
         return JsonResponse(data=categories, status=200, safe=False)
@@ -17,33 +18,29 @@ def categories_list(request: request) -> JsonResponse:
         return JsonResponse({"error": str(e)}, status=500)
 
 
-def product(request: request, product_id: int) -> JsonResponse:
+def product(request, product_id: int):
     try:
         product = Product.objects.get(id=product_id)
-
-        if product:
-            return JsonResponse(data=Product, status=200, safe=False)
-        else:
-            return JsonResponse(data="Product not found", status=404)
+        return JsonResponse(data=product.to_json(), status=200)
+    except Product.DoesNotExist:
+        return JsonResponse({"error": "Product not found"}, status=404)
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
 
-def category(request: request, category_id: int) -> JsonResponse:
+def category(request, category_id: int):
     try:
         category = Category.objects.get(id=category_id)
-
-        if category:
-            return JsonResponse(data=Product, status=200, safe=False)
-        else:
-            return JsonResponse(data="Product not found", status=404)
+        return JsonResponse(data=category.to_json(), status=200)
+    except Category.DoesNotExist:
+        return JsonResponse({"error": "Category not found"}, status=404)
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
 
-def find_product_by_category_id(self, category_id):
+def find_product_by_category_id(request, category_id: int):
     try:
         products = Product.objects.filter(category_id=category_id)
-        return list(products.values())
+        return JsonResponse(list(products.values()), safe=False, status=200)
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)

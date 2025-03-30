@@ -45,3 +45,24 @@ jspm_packages/
 
 # Ignore system files
 Thumbs.db
+
+# Игнорировать виртуальные среды
+venv/
+env/
+.env/
+
+# Игнорировать файлы Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать настройки IDE (например, VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Игнорировать другие файлы
+*.log
