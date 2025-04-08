@@ -1,0 +1,11 @@
+<div class="companyCards">
+  <div
+    *ngFor="let company of companies"
+    class="companyCard"
+    (click)="openVacancies(company.id)"
+  >
+    <h3>{{ company.name }}</h3>
+    <p>{{ company.description }}</p>
+    <p>{{ company.city }}, {{ company.address }}</p>
+  </div>
+</div>

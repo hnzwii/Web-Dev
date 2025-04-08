@@ -1,0 +1,32 @@
+.vacancyСards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+
+  .vacancyСard {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      color: #2c2c2c;
+    }
+
+    p {
+      margin: 0.4rem 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      background-color: #f0f4ff;
+    }
+  }
+}
